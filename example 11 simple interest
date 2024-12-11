@@ -1,0 +1,6 @@
+print('enter the values of p,r,t')
+p=input()
+r=input()
+t=input()
+SI=(p*r*t/100)
+print('the simple interest is',SI)
