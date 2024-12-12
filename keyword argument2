@@ -1,0 +1,4 @@
+def sonu(**numbers):
+  for key, value in numbers.items():
+    print(f"{key}:{value}")
+sonu(name='sonu',age=18,city='new york')
