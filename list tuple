@@ -1,0 +1,2 @@
+prakruthi = (10,20,30)
+print(prakruthi[1])
