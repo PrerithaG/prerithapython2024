@@ -1,0 +1,6 @@
+student ={
+  'name':'preritha',
+  'age':18,
+  'marks':95
+}
+student
