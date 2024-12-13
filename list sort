@@ -1,0 +1,3 @@
+prakruthi = [3,5,8,6,2,9]
+prakruthi.sort()
+print(prakruthi)
