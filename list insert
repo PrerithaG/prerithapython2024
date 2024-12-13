@@ -1,0 +1,2 @@
+b.insert(-1,18)
+print(b)
