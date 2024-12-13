@@ -1,0 +1,30 @@
+import random
+
+def magic_8_ball():
+    responses = [
+        "Yes, definitely.",
+        "Ask again later.",
+        "Cannot predict now.",
+        "Very likely.",
+        "Don’t count on it.",
+        "My sources say no.",
+        "Yes, but with caution.",
+        "Outlook not so good.",
+        "Most likely.",
+        "Better not tell you now.",
+        "Yes, but not today.",
+        "Signs point to yes.",
+        "Reply hazy, try again.",
+        "I wouldn’t bet on it.",
+        "Absolutely!"
+    ]
+    
+    # Select a random response
+    return random.choice(responses)
+
+# Ask the user for a question
+question = input("Ask the Magic 8-Ball a question: ")
+
+# Get the response
+response = magic_8_ball()
+print(f"Magic 8-Ball says: {response}")
