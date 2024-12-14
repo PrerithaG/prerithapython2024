@@ -1,0 +1,2 @@
+with open('/content/bts-the-bangtan-boys-rotated.jpg','rb'):
+ data=file.read()
