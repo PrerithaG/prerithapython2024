@@ -1,0 +1,5 @@
+with open('/content/sonu.txt','a')as file:
+  file.write('lets learn file handling.\n')
+
+with open('/content/sonu.txt','r')as file:
+  print(file.read())
