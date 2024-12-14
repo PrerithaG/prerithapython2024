@@ -1,0 +1,3 @@
+file=open('/content/sonu.txt','a')
+file.write('meghana dont use the phone!\n')
+file.close()
