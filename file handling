@@ -1,0 +1,3 @@
+file=open('/content/sonu.txt','r')
+print(file.read())
+file.close()
