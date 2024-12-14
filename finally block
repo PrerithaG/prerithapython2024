@@ -1,0 +1,6 @@
+try:
+  file=open('/content/bts-the-bangtan-boys-rotated.jpg','r')
+except FileNotFoundError:
+  print('find not found.')
+finally:
+  print('execution complete.')
