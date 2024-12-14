@@ -1,0 +1,5 @@
+with open('/content/sonu.txt','w')as file:
+  file.write('python is awesome!\n')
+
+with open('/content/sonu.txt','r')as file:
+  print(file.read())
